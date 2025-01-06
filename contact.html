@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Fatkhulcorp.id</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="container py-5 mt-5">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <h2>Get In Touch</h2>
+                <p class="lead">I'm always open for new opportunities and interesting projects.</p>
+                <div class="mt-4">
+                    <div class="mb-3">
+                        <h5><i class="bi bi-envelope"></i> Email</h5>
+                        <p><a href="mailto:your.email@example.com" class="text-decoration-none">amirilfatkhul831@gmail.com</a></p>
+                    </div>
+                    <div class="mb-3">
+                        <h5><i class="bi bi-telephone"></i> Phone</h5>
+                        <p><a href="tel:+1234567890" class="text-decoration-none">+62(1234567)</a></p>
+                    </div>
+                    <div class="mb-3">
+                        <h5><i class="bi bi-geo-alt"></i> Location</h5>
+                        <p>pemalang, indonesia</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5><i class="bi bi-people"></i> Social Media</h5>
+                        <div class="social-links">
+                            </a>
+                            <a href="https://github.com/arillllpaul" class="btn btn-outline-dark me-2 mb-2">
+                                <i class="bi bi-github"></i> GitHub
+                            </a>
+                            <a href="https://www.instagram.com/fatkhulrhm?igsh=MWJtb2Z0ajJtZnhqYQ==" class="btn btn-outline-dark mb-2">
+                                <i class="bi bi-instagram"></i> Instagram
+                            </a>
+                            <a href="https://www.linkedin.com/in/fatkhul-rohman-a88881313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-outline-dark mb-2">
+                                <i class="bi bi-linkedin"></i> linkedin
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Send Message</h5>
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" required>
+                                <div class="invalid-feedback">
+                                    Please enter your name.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                                <div class="invalid-feedback">
+                                    Please enter a valid email.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="5" required></textarea>
+                                <div class="invalid-feedback">
+                                    Please enter your message.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; <span id="year"></span> Fatkhulcorp.id.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
