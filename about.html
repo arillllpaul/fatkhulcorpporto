@@ -5,141 +5,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="about.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Fatkhulcorp.id</a>
+            <a class="navbar-brand fw-bold" href="index.html">Fatkhulcorp.id</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section class="container py-5 mt-4">
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <img src="profilee.jpeg" alt="Profile Picture" class="profile-image w-100 rounded-circle">
-                <div class="text-center mt-3">
-                    <h3>Amiril fatkhul rohman</h3>
-                    <p class="text-muted">mahasiswa informatika</p>
+
+    <section class="container py-5 mt-5">
+        <div class="row align-items-center fade-in-section">
+            <div class="col-md-4 mb-4 text-center">
+                <div class="profile-card p-4">
+                    <img src="profilee.jpeg" alt="Profile Picture" class="profile-image w-100 rounded-circle shadow-lg mb-3">
+                    <h3 class="fw-bold">Amiril Fatkhul Rohman</h3>
+                    <p class="text-info">Mahasiswa Informatika (Semester 5)</p>
                     <div class="social-links mt-3">
-                        <a href="https://github.com/arillllpaul" class="btn btn-outline-dark mx-1"><i class="bi bi-github"></i></a>
-                        <a href="https://linkedin.com/in/your-profile" class="btn btn-outline-dark mx-1"><i class="bi bi-linkedin"></i></a>
-                        <a href="https://instagram.com/fatkhulrhm" class="btn btn-outline-dark mx-1"><i class="bi bi-instagram"></i></a>
+                        <a href="https://github.com/arillllpaul" class="btn btn-outline-dark btn-sm rounded-circle mx-1"><i class="bi bi-github"></i></a>
+                        <a href="#" class="btn btn-outline-dark btn-sm rounded-circle mx-1"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://instagram.com/fatkhulrhm" class="btn btn-outline-dark btn-sm rounded-circle mx-1"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
             </div>
             <div class="col-md-8">
-                <h2>About Me</h2>
-                <p class="lead">Welcome to my portfolio! saya mahasiswa semester 3 yang sedang belajar sebagai web developer, web ini berisi informasi saya dan projek yang sudah saya buat selama semester 3 ini.</p>
-                <p>ini adalah sedikit informasi tentang skill yang saya punya sebagai seorang mahasiswa semester 3</p>
+                <h2 class="fw-bold mb-4 text-primary-gradient">About Me</h2>
+                <p class="lead">Saya mahasiswa semester 5 Program Studi Informatika di Universitas PGRI Semarang.</p>
+                <p class="text-muted">Memiliki minat besar pada pengembangan web dan UI/UX design. Saya terbiasa bekerja secara teliti, bertanggung jawab, dan cepat beradaptasi. Saya memiliki motivasi tinggi untuk mengembangkan pengalaman magang dan siap memberikan kontribusi
+                    positif.
+                </p>
 
-                <h3 class="mt-4">Skills</h3>
+                <h3 class="mt-5 mb-4 border-bottom pb-2">Skills</h3>
                 <div class="row">
-                    <div class="col-md-6">
-                        <h6>HTML/CSS</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between align-items-end mb-2">
+                                    <h6 class="fw-bold m-0"><i class="bi bi-code-slash text-primary me-2"></i>Web Developer</h6>
+                                    <span class="badge bg-primary bg-opacity-10 text-primary rounded-pill px-3">Focus</span>
+                                </div>
+                                <div class="progress" style="height: 10px; border-radius: 5px;">
+                                    <div class="progress-bar bg-primary" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="text-end mt-1"><small class="fw-bold text-muted">85%</small></div>
+                            </div>
+
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <h6 class="text-secondary small mb-0">Golang (Go Language)</h6>
+                                </div>
+                                <div class="progress" style="height: 6px;">
+                                    <div class="progress-bar bg-secondary" role="progressbar" style="width: 70%"></div>
+                                </div>
+                            </div>
                         </div>
 
-                        <h6>JavaScript</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h6>React</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+                        <div class="col-md-6">
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between align-items-end mb-2">
+                                    <h6 class="fw-bold m-0"><i class="bi bi-palette text-info me-2"></i>UI/UX Design</h6>
+                                    <span class="badge bg-info bg-opacity-10 text-info rounded-pill px-3">Focus</span>
+                                </div>
+                                <div class="progress" style="height: 10px; border-radius: 5px;">
+                                    <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <div class="text-end mt-1"><small class="fw-bold text-muted">90%</small></div>
+                            </div>
 
-                        <h6>Node.js</h6>
-                        <div class="progress mb-3">
-                            <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="mb-4">
+                                <div class="d-flex justify-content-between mb-1">
+                                    <h6 class="text-secondary small mb-0">MySQL / Database</h6>
+                                </div>
+                                <div class="progress" style="height: 6px;">
+                                    <div class="progress-bar bg-warning" role="progressbar" style="width: 80%"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <h3 class="mt-4">Experience</h3>
-                <div class="card mb-3">
+                <h3 class="mt-5 mb-4 border-bottom pb-2">Education & Experience</h3>
+
+                <div class="experience-card card border-0 shadow-sm mb-3">
                     <div class="card-body">
-                        <h5>mahasiwa semester 3</h5>
-                        <p class="text-muted">Universitas PGRI semarang 2023 - Present</p>
-                        <p>mempelajari tentang ilmu teknik informatika.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="icon-box bg-light text-primary me-3 rounded p-2"><i class="bi bi-mortarboard-fill"></i></div>
+                            <div>
+                                <h5 class="mb-0 fw-bold">Universitas PGRI Semarang</h5>
+                                <small class="text-muted">S1 Informatika | 2023 - Sekarang</small>
+                            </div>
+                        </div>
+                        <p class="mb-0 ms-5 ps-2 border-start border-2 text-muted small">Fokus pada Web Development dan UI/UX Design.</p>
                     </div>
                 </div>
-                <div class="card mb-3">
+
+                <div class="experience-card card border-0 shadow-sm mb-3">
                     <div class="card-body">
-                        <h5>web Development</h5>
-                        <p class="text-muted"></p>
-                        <p>membuat web dengan review buku.</p>
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="icon-box bg-light text-success me-3 rounded p-2"><i class="bi bi-people-fill"></i></div>
+                            <div>
+                                <h5 class="mb-0 fw-bold">Divisi SDM - Organisasi Daerah</h5>
+                                <small class="text-muted">Pengalaman Organisasi</small>
+                            </div>
+                        </div>
+                        <p class="mb-0 ms-5 ps-2 border-start border-2 text-muted small">Mengelola administrasi anggota dan kegiatan internal organisasi.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
+    <footer class="text-light py-5">
         <div class="container">
-            <div class="row text-center text-md-start">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <h5>Follow Me</h5>
-                    <a href="https://github.com/arillllpaul" class="btn btn-outline-light btn-sm me-2" target="_blank" aria-label="GitHub">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://instagram.com/fatkhulrhm" class="btn btn-outline-light btn-sm me-2" target="_blank" aria-label="Instagram">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://linkedin.com/in/your-profile" class="btn btn-outline-light btn-sm" target="_blank" aria-label="LinkedIn">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <h5>Contact Me</h5>
-                    <p class="mb-1">
-                        <i class="bi bi-envelope"></i> Email:
-                        <a href="mailto:example@example.com" class="text-light text-decoration-none">amirilfatkhul831@gmail.com</a>
-                    </p>
-                    <p>
-                        <i class="bi bi-telephone"></i> Phone: +62 123-xxx-xxxx
-                    </p>
-                </div>
-                <div class="col-md-4">
-                    <h5>About</h5>
-                    <p>Welcome to my portfolio! Feel free to explore my work and connect with me on my social media platforms.</p>
-                </div>
-            </div>
-            <hr class="border-light my-3">
             <div class="text-center">
-                <p class="mb-0">&copy; 2025 FatkhulCorp.id</p>
+                <p class="mb-0 small text-white-50">&copy; 2025 FatkhulCorp.id</p>
             </div>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
 </body>
 
 </html>
