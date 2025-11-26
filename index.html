@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fatkhulcorp</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Fatkhulcorp.id</a>
+            <a class="navbar-brand fw-bold" href="index.html">Fatkhulcorp.id</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -38,64 +38,59 @@
     </nav>
 
     <header class="hero-section">
-        <div class="container h-100">
+        <div class="hero-overlay"></div>
+        <div class="container h-100 position-relative">
             <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <div id="greeting"></div>
-                    <h1 class="fw-bold">Welcome to My Portfolio</h1>
+                <div class="col-12 text-center text-white fade-in-up">
+                    <div id="greeting" class="mb-3 text-white fw-bold"></div>
+                    <h1 class="display-4 fw-bold mb-3">Welcome to My Portfolio</h1>
+                    <p class="lead mb-4">Discover my projects and skills</p>
+                    <a href="gallery.html" class="btn btn-primary btn-lg custom-btn">View My Work</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <main class="container my-5">
-        <div class="row">
+    <main class="container my-5 fade-in-section">
+        <div class="row align-items-center">
             <div class="col-md-4 text-center mb-4">
-                <img src="profilee.jpeg" alt="Profile Picture" class="profile-image rounded-circle">
+                <div class="img-container">
+                    <img src="profilee.jpeg" alt="Profile Picture" class="profile-image rounded-circle">
+                </div>
             </div>
             <div class="col-md-8">
-                <h2>Tentang saya</h2>
+                <h2 class="fw-bold mb-3 text-primary-gradient">Tentang Saya</h2>
                 <p class="lead">Saya Amiril Fatkhul Rohman seorang mahasiswa Universitas PGRI Semarang.</p>
-                <p>Welcome to my portfolio! Saya mahasiswa semester 3 yang sedang belajar sebagai web developer. Web ini berisi informasi saya dan projek yang sudah saya buat selama semester 3 ini.</p>
-                <a href="about.html" class="btn btn-primary">Learn More</a>
+                <p class="text-secondary">Welcome to my portfolio! Saya mahasiswa semester 5 yang sedang belajar sebagai web developer. Web ini berisi informasi saya dan projek yang sudah saya buat selama semester 5 ini.</p>
+                <a href="about.html" class="btn btn-outline-primary mt-3 custom-btn-outline">Learn More</a>
             </div>
         </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-4">
+    <footer class="text-light py-5">
         <div class="container">
             <div class="row text-center text-md-start">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <h5>Follow Me</h5>
-                    <a href="https://github.com/arillllpaul" class="btn btn-outline-light btn-sm me-2" target="_blank" aria-label="GitHub">
-                        <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://instagram.com/fatkhulrhm" class="btn btn-outline-light btn-sm me-2" target="_blank" aria-label="Instagram">
-                        <i class="bi bi-instagram"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/fatkhul-rohman-a88881313?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="btn btn-outline-light btn-sm" target="_blank" aria-label="LinkedIn">
-                        <i class="bi bi-linkedin"></i>
-                    </a>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold text-info">Follow Me</h5>
+                    <div class="social-icons mt-3">
+                        <a href="https://github.com/arillllpaul" class="btn btn-outline-light btn-sm me-2 rounded-circle" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://instagram.com/fatkhulrhm" class="btn btn-outline-light btn-sm me-2 rounded-circle" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/fatkhul-rohman-a88881313" class="btn btn-outline-light btn-sm rounded-circle" target="_blank"><i class="bi bi-linkedin"></i></a>
+                    </div>
                 </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <h5>Contact Me</h5>
-                    <p class="mb-1">
-                        <i class="bi bi-envelope"></i> Email:
-                        <a href="mailto:example@example.com" class="text-light text-decoration-none">amirilfatkhul831@gmail.com</a>
-                    </p>
-                    <p>
-                        <i class="bi bi-telephone"></i> Phone: +62 123-xxxxxxx
-                    </p>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bold text-info">Contact Me</h5>
+                    <p class="mb-2"><i class="bi bi-envelope me-2"></i> <a href="mailto:amirilfatkhul831@gmail.com" class="text-light text-decoration-none">amirilfatkhul831@gmail.com</a></p>
+                    <p><i class="bi bi-telephone me-2"></i> +62 851-5607-4723</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>About</h5>
-                    <p>Welcome to my portfolio! Feel free to explore my work and connect with me on my social media platforms.</p>
+                    <h5 class="fw-bold text-info">About</h5>
+                    <p class="small text-white-50">Welcome to my portfolio! Feel free to explore my work and connect with me on my social media platforms.</p>
                 </div>
             </div>
-            <hr class="border-light my-3">
+            <hr class="border-secondary my-4">
             <div class="text-center">
-                <p class="mb-0">&copy; 2025 FatkhulCorp.id</p>
+                <p class="mb-0 small text-white-50">&copy; 2025 FatkhulCorp.id. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
